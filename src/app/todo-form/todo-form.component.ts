@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { TodoService } from '../todo.service';
 
 @Component({
@@ -9,6 +9,7 @@ import { TodoService } from '../todo.service';
 export class TodoFormComponent implements OnInit {
   public title: string;
   public description: string;
+  @Input() public pageTile: string;
 
   constructor(private todoService: TodoService) {}
 

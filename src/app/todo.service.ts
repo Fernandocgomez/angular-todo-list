@@ -9,17 +9,17 @@ export class TodoService {
   public todos: TodoInterface[] = [
     {
       title: "first", 
-      description: "first", 
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat", 
       status: false
     }, 
     {
       title: "second", 
-      description: "second", 
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat", 
       status: false
     }, 
     {
       title: "third", 
-      description: "third", 
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat", 
       status: true
     }, 
   ];
