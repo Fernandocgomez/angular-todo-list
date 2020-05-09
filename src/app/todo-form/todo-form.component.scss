@@ -1,0 +1,43 @@
+.todo-form-container form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+    label {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    input {
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+        margin: 1rem 0 1rem 0;
+        border: solid 1px #67c8ee;
+        background-color: #67c8ee21;
+        padding: .5rem;
+    }
+
+    button {
+        width: 20%;
+        align-self: flex-end;
+        font-size: 16px;
+        border-radius: 5px;
+        color: #ffffff;
+        background-color: #0892aa;
+        border: solid 1px #36c5dff6;
+        padding: 0.5rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #36c5dff6;
+            border: solid 1px #ffffff;
+        }
+    }
+
+    #description {
+        padding-bottom: 4rem;
+    }
+}
+
+

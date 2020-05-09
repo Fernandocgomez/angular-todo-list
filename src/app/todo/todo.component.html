@@ -1,0 +1,19 @@
+<div class="todo-container" *ngFor="let todo of todos; let i = index">
+    <h2 [class.completed]="todo.status">{{ todo.title }}</h2>
+    <div class="description">
+        <p [class.completed]="todo.status">{{ todo.description }}</p>
+        <i 
+        [class.icon-completed]="todo.status"
+         class="fas fa-check-circle" 
+         id="complete-icon"
+         (click)="onChangeStatus(i)"
+         ></i>
+        <i 
+        class="fas fa-trash-alt" 
+        id="trash-can" 
+        *ngIf="todo.status"
+        (click)="OnRemove(i)"
+        ></i>
+    </div>
+</div>
+

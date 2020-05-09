@@ -1,0 +1,40 @@
+.todo-container {
+    margin-top: 2rem;
+    
+    h2 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .description {
+        display: flex;
+
+        #complete-icon {
+            font-size: 2rem; 
+            margin-left: 1rem;
+            
+            &:hover {
+                color: green;
+            }
+        }
+    }
+
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.icon-completed {
+    color: green;
+}
+
+#trash-can {
+    font-size: 2rem;
+    margin-left: 1rem;
+
+    &:hover {
+        color: red;
+    }
+}

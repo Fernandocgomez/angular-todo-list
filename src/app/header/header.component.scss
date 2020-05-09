@@ -1,0 +1,36 @@
+.header-container {
+    background-color: rgba(0, 0, 0, 0.900);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #ffffff;
+    
+    .logo{
+        margin: 1rem;
+
+        a {
+            font-size: 2rem;
+            color: #cccccc;
+        }
+    } 
+
+    .nav-links ul {
+        display: flex;
+
+        li {
+            margin: 1rem;
+            font-size: 1rem;
+            padding-top: 0.5rem;
+            
+            a {
+                color: #cccccc;
+            }
+        }
+
+
+    }
+}
+
+li:hover, a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

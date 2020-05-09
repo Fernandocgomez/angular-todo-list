@@ -1,0 +1,9 @@
+<div class="todo-form-container">
+    <form action="" #form="ngForm">
+        <label for="title">To Do Title</label>
+        <input type="text" id="title" [(ngModel)]="title" name="title">
+        <label for="description">To Do Description</label>
+        <input type="text" id="description" [(ngModel)]="description" name="description">
+        <button (click)="onSubmit(); form.reset()">Submit To Do</button>
+    </form>
+</div>
